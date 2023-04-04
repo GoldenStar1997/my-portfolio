@@ -1,11 +1,11 @@
-const logotext = "JOHN";
+const logotext = "LEON";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Leon Becker",
+    description: "I’m Leon Becker data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Leon Becker",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
