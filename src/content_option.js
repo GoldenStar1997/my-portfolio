@@ -1,38 +1,38 @@
 const logotext = "LEON";
 const meta = {
     title: "Leon Becker",
-    description: "I’m Leon Becker data scientist _ Full stack devloper,currently working in Berlin",
+    description: "My lovely portfolio built with React, NextJS, and React Bootstrap",
 };
 
 const introdata = {
-    title: "I’m Leon Becker",
+    title: "I’m Full Stack Developer",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
         third: "I develop mobile apps",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    avatar: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    aboutme: "I am a professional with expertise in both front-end and back-end web development technologies. I possess strong programming skills in languages such as Python, Typescript, and PHP and proficiency in front-end technologies such as React, Angular, Vue, and CSS frameworks. Additionally, I have experience with back-end technologies such as Node.js and its related frameworks like Next, Nuxt with strong knowledge of database systems. I am also responsible for developing and maintaining web applications, creating and testing web APIs, designing front-end user interfaces, and ensuring the security and performance of web applications. I have excellent communication and collaboration skills, are able to work independently and as part of a team, and am familiar with Agile development methodologies.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
+        jobtitle: "Web Developer",
         where: "YAdfi",
         date: "2020",
     },
     {
-        jobtitle: "Designer of week",
+        jobtitle: "Web Developer",
         where: "Jamalya",
         date: "2019",
     },
     {
         jobtitle: "Designer of week",
         where: "ALquds",
-        date: "2019",
+        date: "2017",
     },
 ];
 
@@ -60,16 +60,16 @@ const skills = [
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: " Front-End Development From Scratch ",
+        description: "I love smart and beautiful Screen.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Back-End Development || RESTful API, Payment Integration",
+        description: "Services / Platforms integrations providing.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Scalable / Maintainable / Clean ",
+        description: "Support well-organized Code and well-trained Code.",
     },
 ];
 
@@ -148,7 +148,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/GoldenStar1997/",
     facebook: "https://facebook.com",
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",

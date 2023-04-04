@@ -26,10 +26,10 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          {/* <Col lg="3">
-            <h3 className="color_sec py-4">{dataabout.title}</h3>
-          </Col> */}
-          <Col lg="12" className="d-flex align-items-center">
+          <Col lg="3">
+          <img src={dataabout.avatar} alt="Profile Avatar" style={{width:'100%'}}/>
+          </Col>
+          <Col lg="9" className="d-flex align-items-center">
             <div>
               <p>{dataabout.aboutme}</p>
             </div>
@@ -37,7 +37,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="3">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">Employ History </h3>
           </Col>
           <Col lg="9">
             <table className="table caption-top">
