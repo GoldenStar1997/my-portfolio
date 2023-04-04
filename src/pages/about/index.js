@@ -26,20 +26,20 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lg="5">
+          {/* <Col lg="3">
             <h3 className="color_sec py-4">{dataabout.title}</h3>
-          </Col>
-          <Col lg="7" className="d-flex align-items-center">
+          </Col> */}
+          <Col lg="12" className="d-flex align-items-center">
             <div>
               <p>{dataabout.aboutme}</p>
             </div>
           </Col>
         </Row>
-        <Row className=" sec_sp">
-          <Col lg="5">
+        <Row className="sec_sp">
+          <Col lg="3">
             <h3 className="color_sec py-4">Work Timline</h3>
           </Col>
-          <Col lg="7">
+          <Col lg="9">
             <table className="table caption-top">
               <tbody>
                 {worktimeline.map((data, i) => {
@@ -56,10 +56,10 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lg="5">
-            <h3 className="color_sec py-4">Skills</h3>
+          <Col lg="3">
+            <h3 className="color_sec py-4">Skills & Expertise</h3>
           </Col>
-          <Col lg="7">
+          <Col lg="9">
             {skills.map((data, i) => {
               return (
                 <div key={i}>
@@ -81,9 +81,9 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+            <h3 className="color_sec py-4">What I offer</h3>
           </Col>
-          <Col lg="7">
+          <Col lg="9">
             {services.map((data, i) => {
               return (
                 <div className="service_ py-4" key={i}>

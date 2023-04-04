@@ -24,7 +24,7 @@ export const ContactUs = () => {
     const templateParams = {
       from_name: formData.email,
       user_name: formData.name,
-      to_name: contactConfig.YOUR_EMAIL,
+      to_name: contactConfig.YOUR_NAME,
       message: formData.message,
     };
 
@@ -40,7 +40,7 @@ export const ContactUs = () => {
           console.log(result.text);
           setFormdata({
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: "SUCCESS! Thanks for your messege.",
             variant: "success",
             show: true,
           });
@@ -48,7 +48,7 @@ export const ContactUs = () => {
         (error) => {
           console.log(error.text);
           setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
+            alertmessage: `Faild to send!, ${error.text}`,
             variant: "danger",
             show: true,
           });
@@ -101,9 +101,23 @@ export const ContactUs = () => {
               </a>
               <br />
               <br />
-              {contactConfig.hasOwnProperty("YOUR_FONE") ? (
+              {/* {contactConfig.hasOwnProperty("YOUR_FONE") ? (
                 <p>
                   <strong>Phone:</strong> {contactConfig.YOUR_FONE}
+                </p>
+              ) : (
+                ""
+              )} */}
+              {contactConfig.hasOwnProperty("YOUR_ADDRESS") ? (
+                <p>
+                  <strong>Address:</strong> {contactConfig.YOUR_ADDRESS}
+                </p>
+              ) : (
+                ""
+              )}
+              {contactConfig.hasOwnProperty("YOUR_SKYPE_ID") ? (
+                <p>
+                  <strong>Skype:</strong> {contactConfig.YOUR_SKYPE_ID}
                 </p>
               ) : (
                 ""
