@@ -17,7 +17,7 @@ const introdata = {
 
 const dataabout = {
     avatar: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
-    aboutme: "I am a professional with expertise in both front-end and back-end web development technologies. I possess strong programming skills in languages such as Python, Typescript, and PHP and proficiency in front-end technologies such as React, Angular, Vue, and CSS frameworks. Additionally, I have experience with back-end technologies such as Node.js and its related frameworks like Next, Nuxt with strong knowledge of database systems. I am also responsible for developing and maintaining web applications, creating and testing web APIs, designing front-end user interfaces, and ensuring the security and performance of web applications. I have excellent communication and collaboration skills, are able to work independently and as part of a team, and am familiar with Agile development methodologies.",
+    aboutme: "I am an experienced web developer with expertise in both front-end and back-end web development technologies. I possess strong programming skills in languages such as Python, Typescript, and PHP and proficiency in front-end technologies such as React, Angular, Vue, and CSS frameworks. Additionally, I have experience with back-end technologies such as Node.js and its related frameworks like Next, Nuxt with strong knowledge of database systems. I am also responsible for developing and maintaining web applications, creating and testing web APIs, designing front-end user interfaces, and ensuring the security and performance of web applications. I have excellent communication and collaboration skills, are able to work independently and as part of a team, and am familiar with Agile development methodologies.",
 };
 const worktimeline = [{
         jobtitle: "Web Developer",
@@ -141,13 +141,13 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
+    YOUR_EMAIL: "golden.starr1997@gmail.com",
+    // YOUR_FONE: "(555)123-4567",
     description: "I am a full stack developer who is so skilled and experienced in both front-end and back-end.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
+    YOUR_SERVICE_ID: "service_aairba8",
+    YOUR_TEMPLATE_ID: "template_lhyg6dc",
     YOUR_USER_ID: "user_id",
 };
 
