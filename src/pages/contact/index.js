@@ -65,7 +65,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <HelmetProvider>
+    <HelmetProvider id="contact">
       <Container>
         <Helmet>
           <meta charSet="utf-8" />

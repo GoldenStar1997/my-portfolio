@@ -38,7 +38,7 @@ const worktimeline = [{
 
 const skills = [
     {
-        name: "Javascript",
+        name: "Node",
         value: 100,
     },
     {
@@ -47,7 +47,11 @@ const skills = [
     },
     {
         name: "Vue",
-        value: 85,
+        value: 95,
+    },
+    {
+        name: "Vue",
+        value: 90,
     },
     {
         name: "Python",
@@ -139,7 +143,7 @@ const dataportfolio = [{
 const contactConfig = {
     YOUR_EMAIL: "name@domain.com",
     YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    description: "I am a full stack developer who is so skilled and experienced in both front-end and back-end.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",

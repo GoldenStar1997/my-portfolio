@@ -10,10 +10,10 @@ import {
   services,
 } from "../../content_option";
 
-export const About = () => {
+export default () => {
   return (
     <HelmetProvider>
-      <Container className="About-header">
+      <Container className="About-header" id="about">
         <Helmet>
           <meta charSet="utf-8" />
           <title> About | {meta.title}</title>

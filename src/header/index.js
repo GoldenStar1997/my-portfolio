@@ -22,10 +22,9 @@ const Headermain = () => {
           </Link>
           <div className="d-flex align-items-center">
           {/* <Themetoggle /> */}
-          <button className="menu__button  nav_ac" onClick={handleToggle}>
+          {/* <button className="menu__button  nav_ac" onClick={handleToggle}>
             {!isActive ? <VscClose /> : <VscGrabber />}
-          </button>
-          
+          </button> */}
           </div>
         </div>
 
@@ -50,14 +49,14 @@ const Headermain = () => {
               </div>
             </div>
           </div>
-          {/* <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
+          <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
             <div className="d-flex">
             <a href={socialprofils.facebook}>Facebook</a>
             <a href={socialprofils.github}>Github</a>
             <a href={socialprofils.twitter}>Twitter</a>
             </div>
             <p className="copyright m-0">copyright __ {logotext}</p>
-          </div> */}
+          </div>
         </div>
       </header>
       <div className="br-top"></div>
