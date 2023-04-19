@@ -99,29 +99,20 @@ export const ContactUs = () => {
               <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
                 {contactConfig.YOUR_EMAIL}
               </a>
-              <br />
-              <br />
-              {/* {contactConfig.hasOwnProperty("YOUR_FONE") ? (
+              {contactConfig.hasOwnProperty("YOUR_SKYPE_ID") ? (
                 <p>
-                  <strong>Phone:</strong> {contactConfig.YOUR_FONE}
+                  <strong>skype:</strong> {contactConfig.YOUR_SKYPE_ID}
                 </p>
               ) : (
                 ""
-              )} */}
-              {contactConfig.hasOwnProperty("YOUR_ADDRESS") ? (
+              )}
+              {/* {contactConfig.hasOwnProperty("YOUR_ADDRESS") ? (
                 <p>
                   <strong>Address:</strong> {contactConfig.YOUR_ADDRESS}
                 </p>
               ) : (
                 ""
-              )}
-              {contactConfig.hasOwnProperty("YOUR_SKYPE_ID") ? (
-                <p>
-                  <strong>Skype:</strong> {contactConfig.YOUR_SKYPE_ID}
-                </p>
-              ) : (
-                ""
-              )}
+              )} */}
             </address>
             <p>{contactConfig.description}</p>
           </Col>

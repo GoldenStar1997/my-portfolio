@@ -17,7 +17,7 @@ const introdata = {
 
 const dataabout = {
     avatar: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
-    aboutme: "I am an experienced web developer with expertise in both front-end and back-end web development technologies. I possess strong programming skills in languages such as Python, Typescript, and PHP and proficiency in front-end technologies such as React, Angular, Vue, and CSS frameworks. Additionally, I have experience with back-end technologies such as Node.js and its related frameworks like Next, Nuxt with strong knowledge of database systems. I am also responsible for developing and maintaining web applications, creating and testing web APIs, designing front-end user interfaces, and ensuring the security and performance of web applications. I have excellent communication and collaboration skills, are able to work independently and as part of a team, and am familiar with Agile development methodologies.",
+    aboutme: "Hello everyone, I enjoy helping people build more successful websites and applications by sharing my expertise in cutting-edge technology and stacks. In my free time, I love chatting with friends and researching the new technology. 'Everything works as expected so far. Absolutely no issues.' is my final purpose. ",
 };
 const worktimeline = [{
         jobtitle: "Web Developer",
@@ -38,19 +38,15 @@ const worktimeline = [{
 
 const skills = [
     {
-        name: "Node",
+        name: "React.js",
         value: 100,
     },
     {
-        name: "React",
-        value: 100,
-    },
-    {
-        name: "Vue",
+        name: "Vue.js",
         value: 95,
     },
     {
-        name: "Vue",
+        name: "Next.js",
         value: 90,
     },
     {
@@ -142,13 +138,13 @@ const dataportfolio = [{
 
 const contactConfig = {
     YOUR_EMAIL: "golden.starr1997@gmail.com",
-    // YOUR_FONE: "(555)123-4567",
-    description: "I am a full stack developer who is so skilled and experienced in both front-end and back-end.",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
+    YOUR_SKYPE_ID : "live:.cid.e1109675c0e65e4f",
+    YOUR_DISCORD_ID : "",
+    YOUR_SLACK_ID : "",
+    description: "LET US BE ClOSE!",
     YOUR_SERVICE_ID: "service_aairba8",
     YOUR_TEMPLATE_ID: "template_lhyg6dc",
-    YOUR_USER_ID: "R96sUBKBAzbEaKw_s",
+    YOUR_USER_ID: "R96sUBKBAzbEaKw_s", // public id
 };
 
 const socialprofils = {
