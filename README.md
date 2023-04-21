@@ -15,7 +15,7 @@ A simple portfolio template for developer/designers built with React.
 
 Get the code
 
-<pre>git clonehttps://github.com/GoldenStar1997/my-portfolio.git</pre>
+<pre>git clone https://github.com/GoldenStar1997/my-portfolio.git</pre>
  
 Install required dependencies
 
